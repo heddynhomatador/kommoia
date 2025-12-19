@@ -11,8 +11,5 @@ async def kommo_webhook(request: Request):
     data = await request.json()
     print("Webhook recebido do Kommo:", data)
 
-    # Aqui depois vamos:
-    # 1) extrair chat_id e mensagem
-    # 2) chamar a IA
-    # 3) enviar resposta pro Kommo
+    # depois a gente trata isso (IA + resposta pro cliente)
     return {"status": "ok"}
